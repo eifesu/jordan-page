@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-Bold.eot');
+    src: url('HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeue-Bold.woff2') format('woff2'),
+        url('HelveticaNeue-Bold.woff') format('woff'),
+        url('HelveticaNeue-Bold.ttf') format('truetype'),
+        url('HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+html, body {
+    margin:0px;
+  }
+
+* {
+    font-family: 'Helvetica Neue';
+    font-weight: bold;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    font-size: 0.5rem;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+#text {
+    width: 60%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#content {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+}
+#img-div, #font-div {
+    position: absolute;
+   display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+    }
+
+#font-div  {
+    color: black;
+    font-size: 40rem;
+    z-index: 0;
+}
+
+#img-caption {
+    font-size: 10px;
+
+}
+#image {
+    filter: drop-shadow(5px 5px 5px #222);
+  
+    width: auto;
+    height: 80vh;
+    z-index: 2;
+
+}
+
+#tribute-info {
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+#tribute-description {
+
+    width: 80%;
+
+
+}
+
+#tribute-description, #tribute-title, #img-caption {
+    color: white;
+    mix-blend-mode: difference;
+    width: 80%;
+    z-index: 1;
+
+
+}
+
+.tribute {
+
+    width: 100%;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#franchise {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+#tribute-title{
+    font-size: 2rem;
+    margin: 2px;
+}
+
+#tribute-description {
+    font-size: 0.5rem;
+    margin: 2px;
+}
+
+
